@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/wearebraid/vue-formulate.git"
+    "url": "git+ssh://git@github.com/bqroster/vue-bp-pckg.git"
   },
   "homepage": "https://github.com/bqroster/vue-bp-pckg/",
   "bugs": {
