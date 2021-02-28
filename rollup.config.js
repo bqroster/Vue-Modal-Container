@@ -1,4 +1,5 @@
 import vue from "rollup-plugin-vue2";
+import scss from "rollup-plugin-scss";
 import buble from "rollup-plugin-buble";
 import commonjs from "rollup-plugin-commonjs";
 import replace from "rollup-plugin-replace";
@@ -19,8 +20,11 @@ const config = {
             "process.env.NODE_ENV": JSON.stringify("production")
         }),
         commonjs(),
+        scss({
+            output: './dist/vue-bp-pckg.css'
+        }),
         vue({
-            css: true,
+            css: false,
             compileTemplate: true,
             template: {
                 isProduction: true
