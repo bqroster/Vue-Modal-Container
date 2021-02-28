@@ -2,17 +2,18 @@
 
 # Vue Boilerplate Package
 
+This is a Boilerplate Package for Vue.
+* **Node** v8.10.0
+* **NPM** v5.6.0
+
 ## Project setup
 ```
+git clone https://github.com/bqroster/vue-bp-pckg.git <project-name>
+cd <project-name>
 npm install
 ```
 
-### Create Package Build
-```
-npm run build
-```
-
-### Compiles and minifies for production
+### Createa package build, compiles and minifies for production
 ```
 npm run build
 ```
@@ -26,3 +27,11 @@ npm run test
 ```
 npm run lint
 ```
+
+#### Live Example
+
+[Vue-BP-package example](https://codepen.io/bqroster/pen/NWbwRXj)
+
+
+#### Author
+Jose Burgos <jose@bqroster.com>
