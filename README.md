@@ -13,7 +13,7 @@ cd <project-name>
 npm install
 ```
 
-### Createa package build, compiles and minifies for production
+### Create a package build, compiles and minifies for production
 ```
 npm run build
 ```
