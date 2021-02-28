@@ -10,7 +10,7 @@ describe('VueBpPckg Component mounted', () => {
 
     test('VueBpPckg with title default property', () => {
         const wrapper = mount(VueBpPckg);
-        expect(wrapper.contains('.vue-bp-pckg-wrapper')).toBe(true);
+        expect(wrapper.find('.vue-bp-pckg-wrapper').exists()).toBe(true);
         expect(wrapper.get('.vue-bp-pckg-wrapper').text()).toBe('this is a simple bp vue npm package');
     });
 
@@ -22,7 +22,7 @@ describe('VueBpPckg Component mounted', () => {
                 }
             });
         expect(wrapper.element).toMatchSnapshot();
-        expect(wrapper.contains('.vue-bp-pckg-wrapper')).toBe(true);
+        expect(wrapper.find('.vue-bp-pckg-wrapper').exists()).toBe(true);
         expect(wrapper.get('.vue-bp-pckg-wrapper').text()).toBe('this is a package');
     });
 });
