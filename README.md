@@ -28,6 +28,13 @@ npm run test
 npm run lint
 ```
 
+### Usage
+```html
+import VueBpPckg from "vue-bp-pckg"
+
+<vue-bp-pckg title="Any text to demo the component" />
+```
+
 #### Live Example
 
 [Vue-BP-package example](https://codepen.io/bqroster/pen/NWbwRXj)
