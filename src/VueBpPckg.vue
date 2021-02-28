@@ -21,3 +21,13 @@
     }
 
 </script>
+
+<style lang="scss">
+    .vue-bp-pckg-wrapper {
+        border: 2px solid grey;
+        span {
+            color: #7baa55;
+            font-size: 16px;
+        }
+    }
+</style>
