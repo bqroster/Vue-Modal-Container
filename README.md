@@ -38,7 +38,7 @@ import ModalContainer from "bqr-vue-modal-container"
     :auto-hide="autoHide"
     :is-bg-visible="isBgVisible"
     :is-scroll-disabled="isScrollBlocked"
-    @closeModa="closeModal"
+    @closeModal="closeModal"
 >
     Any Content here
 </modal-container>
