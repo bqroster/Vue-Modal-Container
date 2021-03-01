@@ -1,9 +1,12 @@
-import vueBpPckg from './VueBpPckg.vue';
+import ModalContainer from './ModalContainer.vue';
+
+export { default as ModalSettingsMixin } from './mixins/ModalSettingsMixin';
+export { default as ModalContainerPropsMixin } from './mixins/ModalContainerPropsMixin';
 
 function install(Vue) {
     if (install.installed) return;
     install.installed = true;
-    Vue.component('VueBpPckg', vueBpPckg);
+    Vue.component('ModalContainer', ModalContainer);
 }
 
 const plugin = {
@@ -21,6 +24,6 @@ if (GlobalVue) {
     GlobalVue.use(plugin);
 }
 
-vueBpPckg.install = install;
+ModalContainer.install = install;
 
-export default vueBpPckg;
+export default ModalContainer;

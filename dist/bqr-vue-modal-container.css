@@ -1,0 +1,111 @@
+.bqr__modal-container {
+  position: fixed;
+  z-index: 99999; }
+  .bqr__modal-container .bqr__modal-wrapper {
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px #aaa;
+    background-color: #fff; }
+  .bqr__modal-container.bg-visible {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4); }
+    .bqr__modal-container.bg-visible.center {
+      justify-content: center;
+      align-items: center; }
+    .bqr__modal-container.bg-visible.center-top {
+      justify-content: center;
+      align-items: flex-start; }
+      .bqr__modal-container.bg-visible.center-top .bqr__modal-wrapper {
+        transform: translateY(40px); }
+    .bqr__modal-container.bg-visible.center-bottom {
+      justify-content: center;
+      align-items: flex-end; }
+      .bqr__modal-container.bg-visible.center-bottom .bqr__modal-wrapper {
+        transform: translateY(-40px); }
+    .bqr__modal-container.bg-visible.left-top {
+      align-items: flex-start; }
+      .bqr__modal-container.bg-visible.left-top .bqr__modal-wrapper {
+        max-width: calc(100vw - 16px);
+        transform: translate(16px, 16px); }
+    .bqr__modal-container.bg-visible.left-bottom {
+      align-items: flex-end; }
+      .bqr__modal-container.bg-visible.left-bottom .bqr__modal-wrapper {
+        max-width: calc(100vw - 16px);
+        transform: translate(16px, -16px); }
+    .bqr__modal-container.bg-visible.right-top {
+      align-items: flex-start;
+      flex-direction: row-reverse; }
+      .bqr__modal-container.bg-visible.right-top .bqr__modal-wrapper {
+        max-width: calc(100vw - 16px);
+        transform: translate(-16px, 16px); }
+    .bqr__modal-container.bg-visible.right-bottom {
+      align-items: flex-end;
+      flex-direction: row-reverse; }
+      .bqr__modal-container.bg-visible.right-bottom .bqr__modal-wrapper {
+        max-width: calc(100vw - 16px);
+        transform: translate(-16px, -16px); }
+    .bqr__modal-container.bg-visible.right-stretch {
+      flex-direction: row-reverse; }
+      .bqr__modal-container.bg-visible.right-stretch .bqr__modal-wrapper {
+        height: 100vh; }
+    .bqr__modal-container.bg-visible.left-stretch .bqr__modal-wrapper {
+      height: 100vh; }
+    .bqr__modal-container.bg-visible.top-stretch {
+      align-items: flex-start; }
+      .bqr__modal-container.bg-visible.top-stretch .bqr__modal-wrapper {
+        width: 100vw; }
+    .bqr__modal-container.bg-visible.bottom-stretch {
+      align-items: flex-end; }
+      .bqr__modal-container.bg-visible.bottom-stretch .bqr__modal-wrapper {
+        width: 100vw; }
+  .bqr__modal-container.bg-hidden {
+    display: inline-block; }
+    .bqr__modal-container.bg-hidden.center {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    .bqr__modal-container.bg-hidden.center-top {
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%); }
+    .bqr__modal-container.bg-hidden.center-bottom {
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%); }
+    .bqr__modal-container.bg-hidden.left-top {
+      left: 16px;
+      top: 16px; }
+    .bqr__modal-container.bg-hidden.left-bottom {
+      left: 16px;
+      bottom: 16px; }
+    .bqr__modal-container.bg-hidden.right-top {
+      right: 16px;
+      top: 16px; }
+    .bqr__modal-container.bg-hidden.right-bottom {
+      right: 16px;
+      bottom: 16px; }
+    .bqr__modal-container.bg-hidden.right-stretch {
+      top: 0;
+      right: 0; }
+      .bqr__modal-container.bg-hidden.right-stretch .bqr__modal-wrapper {
+        height: 100vh; }
+    .bqr__modal-container.bg-hidden.left-stretch {
+      top: 0;
+      left: 0; }
+      .bqr__modal-container.bg-hidden.left-stretch .bqr__modal-wrapper {
+        height: 100vh; }
+    .bqr__modal-container.bg-hidden.top-stretch {
+      top: 0;
+      left: 0; }
+      .bqr__modal-container.bg-hidden.top-stretch .bqr__modal-wrapper {
+        width: 100vw; }
+    .bqr__modal-container.bg-hidden.bottom-stretch {
+      bottom: 0;
+      left: 0; }
+      .bqr__modal-container.bg-hidden.bottom-stretch .bqr__modal-wrapper {
+        width: 100vw; }

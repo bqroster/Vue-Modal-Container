@@ -12,7 +12,7 @@ const argv = minimist(process.argv.slice(2));
 const config = {
     input: "src/main.js",
     output: {
-        name: "VueBpPckg",
+        name: "ModalContainer",
         exports: "named"
     },
     plugins: [
@@ -21,7 +21,7 @@ const config = {
         }),
         commonjs(),
         scss({
-            output: './dist/vue-bp-pckg.css'
+            output: './dist/bqr-vue-modal-container.css'
         }),
         vue({
             css: false,
