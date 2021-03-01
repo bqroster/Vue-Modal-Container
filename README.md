@@ -46,12 +46,29 @@ import ModalContainer from "bqr-vue-modal-container"
 
 | Name               | Type          | Default            | Description                                                  |
 | ----------------   | ------------- | ------------------ | ------------------------------------------------------------ |
-| position           | String        | 'center'           | Position in the screen where the `Modal Container` will be placed |
+| position           | String        | 'center'           | Position in the screen where the `Modal Container` will be placed  |
 | is-visible         | Boolean       | false              | false: hide modal from DOM, true: display modal on the DOM   |
 | class-name         | String        | 'modal-override'   | Class(es) name(s) to set over the Modal container            |
 | auto-hide          | Number        | 0                  | If greater than zero, will hide the Modal after the `auto-hide` time interval is past |
 | is-bg-visible      | Boolean       | true               | If true, Display a full screen gray background under the modal container |
 | is-scroll-disabled | Boolean       | true               | If true, disabled the browser be able to scroll              |
+| size               | Object        | { minWidth: 0, width: 0, maxWidth: 0, minHeight: 0, height: 0, maxHeight: 0 } | set the related css properties for the modal container |
+
+
+##### Position prop options:
+```html
+center
+center-top
+center-bottom
+right-stretch
+left-stretch
+top-stretch
+bottom-stretch
+left-bottom
+left-top
+right-bottom
+right-top
+```
 
 #### Events
 | Name               | Description                                                  |
