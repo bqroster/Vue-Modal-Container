@@ -6,27 +6,31 @@ A simple Modal Container package to handle Modal and Notification package.
 * **Node** v8.10.0
 * **NPM** v5.6.0
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
 
-### Create a package build, compiles and minifies for production
+#### Create a package build, compiles and minifies for production
 ```
 npm run build
 ```
 
-### Run tests
+#### Run tests
 ```
 npm run test
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 ```
 npm run lint
 ```
 
-### Usage
+#### Package Installation
+```json
+npm install bqr-vue-modal-container
+```
+#### Usage
 ```html
 import ModalContainer from "bqr-vue-modal-container"
 
